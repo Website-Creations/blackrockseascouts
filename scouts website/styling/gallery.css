@@ -1,0 +1,38 @@
+body {
+    background-color: khaki;
+}
+
+.header {
+    background-color: blue;
+    text-align: center;
+    color: yellow;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 100px;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    animation-duration: 1s;
+    display: -moz-box;
+}
+
+.images {
+    animation-name: all-load 300ms;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgb(0, 0, 255);
+    background-color: #ffffff;
+}
+
+@keyframes all-load {
+    0% {
+        transform: translateX(-1000%)
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

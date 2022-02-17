@@ -1,0 +1,28 @@
+body {
+    background-color: khaki;
+}
+
+.header {
+    background-color: blue;
+    text-align: center;
+    color: yellow;
+    text-decoration: underline dotted khaki;
+    height: 50px;
+    font-size: 15px;
+}
+
+button {
+    float: left;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: underline;
+    color: rgb(12, 180, 12);
+    animation-duration: 2s;
+}
+
+a:hover {
+    color: blue;
+}
